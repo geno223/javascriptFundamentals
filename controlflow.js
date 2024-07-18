@@ -16,3 +16,32 @@ if (x > 5) {
 } else {
     console.log("x is equal to 5");
 }
+
+// Switch statements
+// Switch statements are used to perform different actions based on different conditions.
+// switch (value) { case x: // code block break; case y: // code block break; default: // code block }
+
+let y = 5;
+
+// run the case in which y is equal to the case value
+switch (y) {
+
+    case 5: 
+        console.log("y is equal to 5");
+        break;
+
+    case 6: 
+        console.log("y is equal to 6");
+        break;
+
+    default:    
+        console.log("y is not equal to 5 or 6");
+
+}
+// Ternary Operator
+// inlined if statement
+// condition ? true : false
+
+let result = 5 > 3 ? "true" : "false"
+
+console.log(result);
