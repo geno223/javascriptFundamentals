@@ -45,3 +45,18 @@ switch (y) {
 let result = 5 > 3 ? "true" : "false"
 
 console.log(result);
+
+// Loops
+// Loops are used to execute the same block of code a specified number of times.
+
+
+
+// While Loop
+// while (condition) { // code block }
+
+let i = 0;
+
+while (i < 5) {
+    console.log(i);
+    i++; // ++ is the same as i = i + 1
+}
