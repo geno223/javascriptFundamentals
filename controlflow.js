@@ -60,3 +60,20 @@ while (i < 5) {
     console.log(i);
     i++; // ++ is the same as i = i + 1
 }
+// nested while loop
+
+let outer = 0
+
+
+while (outer < 5) {
+    console.log("outer", outer);
+
+    let inner = 0;
+
+    while (inner < 3) {
+        console.log("inner", inner);
+        inner++;
+    }
+    
+    outer++
+}
