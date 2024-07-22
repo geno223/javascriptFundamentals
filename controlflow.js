@@ -77,3 +77,13 @@ while (outer < 5) {
     
     outer++
 }
+
+// write a loop that runs 5 times
+// 1. declare a variable to tracks loops
+let loop = 0;
+// 2. declare a loop using the variable
+while (loop < 5) {
+    console.log("loop", loop);
+    // 3. increment the variable at the end of the loop
+    loop++;
+}
