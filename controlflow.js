@@ -87,3 +87,9 @@ while (loop < 5) {
     // 3. increment the variable at the end of the loop
     loop++;
 }
+// For Loop
+// for (initialization; condition; increment) { // code block }
+
+for (let v = 0; v < 5; v++) {
+    console.log(v);
+}
