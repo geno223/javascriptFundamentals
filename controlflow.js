@@ -93,3 +93,17 @@ while (loop < 5) {
 for (let v = 0; v < 5; v++) {
     console.log(v);
 }
+// Functions
+// Functions are blocks of code that can be reused.
+// attaching a block of code to a name, that you can reuse whenever you want
+
+// function declaration
+function helloWorld(){
+    console.log("Hello World");
+    console.log("Hello World");
+    console.log("Hello World");
+}
+
+helloWorld()
+helloWorld()
+helloWorld()
